@@ -10,7 +10,6 @@ Each list and grid item displays:
 - Email icon and hidden email address
 - Birth date in DD.MM.YYYY format
 
-Preview: <a href='https://lmilica.github.io/bit-people/'>BitPeople</a>
 
 ## Stack
 
