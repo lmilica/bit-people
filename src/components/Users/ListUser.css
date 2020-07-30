@@ -1,0 +1,32 @@
+.ListUser{
+    display: flex;
+    border: solid 1px lightgray;
+    width: 90%;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.ListUser:hover {
+    background-color: rgb(237, 107, 134);
+    cursor: pointer;
+    padding: 25px;
+}
+.ListUser__img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.ListUser__img img {
+    border-radius: 50%;
+}
+
+.ListUser__info{
+    margin-left: 10px;
+}
+.ListUser__info p{
+    margin: 0;
+    padding: 3px;
+}
+
+.female{
+    background-color: #ffebee
+}

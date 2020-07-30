@@ -1,0 +1,11 @@
+.Footer {
+  width: 100%;
+  background-color: pink;
+  height: 80px;
+}
+
+.Footer__text {
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}

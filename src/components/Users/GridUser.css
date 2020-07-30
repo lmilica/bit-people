@@ -1,0 +1,36 @@
+.GridUser{
+    width: 30%;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    border: solid 1px lightgray;
+    position: relative;
+}
+
+.GridUser:hover{
+    margin-top: 5px;
+    box-shadow: 1px 5px 6px 8px lightgray;
+    cursor: pointer;
+}
+.GridUser p{
+    padding-left: 10px;
+}
+
+.GridUser__name{  
+      font-size: 40px;
+      margin: 0px;
+}
+.GridUser__img img{
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .GridUser{
+        width: 40%;
+    }
+}
+
+@media (max-width: 780px) {
+    .GridUser{
+        width: 80%;
+    }
+}

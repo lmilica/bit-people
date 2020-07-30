@@ -1,0 +1,48 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(250, 179, 169);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.Header__title {
+  color: white;
+  margin-left: 50px;
+}
+
+.Header__icons {
+  position: relative;
+  display: flex;
+  color: white;
+  top: 30px;
+  right: 50px;
+}
+
+.Header__icons_rel {
+  position: absolute;
+  right: 50px;
+}
+
+.Header__icons_grid {
+  position: absolute;
+  right: 2px;
+}
+
+.Header__icons_list {
+  position: absolute;
+  right: 2px;
+  }
+
+.grid:hover {
+  cursor: pointer;
+}
+
+.Header__icons_list:hover {
+  cursor: pointer;
+}
+
+.Header__icons_rel:hover{
+  cursor: pointer;
+}
